@@ -1,0 +1,12 @@
+<!--pages/dont_do_that/dont_do_that.wxml-->
+<view class="container">
+   <image style="width: 300px; height: 300px;" mode="widthFix" src="/images/mainlogo.png"/>
+     <view class="card">
+      <view class="cardNumber">卡牌数量(最大为10)</view>
+      <view class="cardinput"><input bindinput="cardNumberInput"/></view>
+    </view>
+    <view class="submit">
+    <button type="primary" plain="true" bindtap="submitClick">开始游戏！</button>
+    <button type="primary" plain="true" bindtap="gotohelp">游戏帮助</button>
+    </view>
+</view>

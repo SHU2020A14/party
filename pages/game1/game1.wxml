@@ -1,0 +1,28 @@
+<view class="container">
+  <view class="index-container">
+     <image style="width: 300px; height: 300px;" mode="widthFix" src="/images/mainlogo.png"/>
+    <view class="nickname">卡牌数量：{{cardnum}}</view>
+    <view class="card">
+    <view wx:if="{{iscounting==true}}" class="countDown">倒计时：<text style='color:red'>{{countDownNum}}</text>s</view>
+    <view wx:if="{{iscounting==false}}">
+      <view  wx:for="{{keyword}}" wx:for-item="itemx">
+        <view wx:if="{{index==selected}}">
+          <text class="cardstyle">
+            {{itemx}} 
+          </text>
+         </view>
+      </view>
+    </view>
+
+         
+    </view>
+    <view class="left"> 还剩：{{left}}张 </view>
+    <view wx:if="{{lose==false}}">
+      <button type="primary" plain="true" bindtap="changeClick">下一张牌</button>
+    </view>
+    <view wx:else> 
+      <button type="warn">你输了</button>
+      <button type="primary" plain="true" bindtap="changeClick1">再来一局</button>
+    </view>
+  </view>
+</view>

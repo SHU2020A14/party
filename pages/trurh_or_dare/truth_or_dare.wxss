@@ -1,0 +1,63 @@
+/* pages/trurh_or_dare/truth_or_dare.wxss */
+page{
+  height:100%;
+}
+
+.title{
+  text-align: center;
+  font-weight: bolder;
+  font-family: "微软雅黑";
+}
+
+.bt1{
+  background-color: rgb(233, 40, 98);
+  height: 150rpx;
+  width: 320rpx;
+  margin: 10px;
+}
+
+.bt2{
+  background-color: rgb(182, 74, 167);
+  height: 150rpx;
+  width: 320rpx;
+  margin: 10px;
+}
+
+.txt{
+  color: beige;
+  font-size: 20pt;
+}
+
+.bt3{
+  border-radius: 10px;
+  background-color: rgb(204, 60, 149);
+  width: 92%;
+  height: 500rpx;
+  margin: 10px;
+  text-align: center;
+  line-height: 50rpx;
+  justify-content: center;
+}
+
+.content{
+  display:block;
+  color: beige;
+  width: 100%;
+  height: 100%;
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+
+.footprint{
+  width: 8%;
+  height: 10%;
+  margin-top: 15px;
+}

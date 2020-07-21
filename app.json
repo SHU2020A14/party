@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/trurh_or_dare/truth_or_dare",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/dont_do_that/dont_do_that",
+    "pages/help1/help1",
+    "pages/game1/game1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#328eeb",
+    "navigationBarTitleText": "派对集合",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#cb1c36",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "iconPath": "images/盒子1.png",
+        "selectedIconPath": "images/盒子2.png",
+        "pagePath": "pages/index/index",
+        "text": "娱乐资源"
+      },
+      {
+        "iconPath": "images/my1.png",
+        "selectedIconPath": "images/my2.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

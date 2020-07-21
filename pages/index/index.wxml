@@ -1,0 +1,17 @@
+<!--滚动屏-->
+<swiper indicator-dots="true" autoplay="true" interval="5000" duration="500">
+  <block wx:for="{{swiperImg}}" wx:key='swiper{{index}}'>
+    <swiper-item>
+      <image src="{{item.src}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<text class='srclist'>资源列表</text>
+<!--游戏列表-->
+<view id='game-list'>
+  <view class='list-item' wx:for="{{gamelist}}" wx:for-item="game" wx:key="{{game.id}}">
+    <image src='{{game.poster}}'></image>
+    <text class="game-title" bindtap="gotogame" data-id="{{game.id}}" style="white-space:pre-wrap">     ——————{{game.title}}——————
+  {{game.introduction}}</text>
+  </view>
+</view>

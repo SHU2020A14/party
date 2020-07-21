@@ -1,0 +1,44 @@
+/**index.wxss**/
+swiper {
+  height: 400rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+#game-list {
+ min-height: 600rpx;
+  padding: 15rpx;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  border: 1rpx solid rgb(147, 232, 247);
+  border-radius: 10px;
+}
+
+.list-item image {
+  width: 230rpx;
+  height: 150rpx;
+  margin: 10rpx;
+}
+
+.game-title {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  line-height: 40rpx;
+  font-size: 10pt;
+  background-color: rgb(240, 240, 240);
+}
+
+.srclist {
+  margin-top: 150rpx;
+  border-radius: 10px;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  background-color: aliceblue;
+}

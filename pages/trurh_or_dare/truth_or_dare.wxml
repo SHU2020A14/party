@@ -1,0 +1,14 @@
+<!--pages/trurh_or_dare/truth_or_dare.wxml-->
+<view class="page">
+  <image class="background" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1543331480,3026734187&fm=26&gp=0.jpg" mode="aspectFill"></image>
+  <view class='bt-box'>
+    <view class="title" style="white-space:pre-wrap">
+  真心话大冒险
+  </view>
+    <button class="bt1" size="mini" bindtap="gototruth"><text class="txt">真心话</text></button>
+    <button class="bt2" size="mini" bindtap="gotodare"><text class="txt">大冒险</text></button>
+  </view>
+  <view class="bt3" style="white-space:pre-wrap"><image class="footprint" src="狗脚印.png"></image><text class="content">
+    
+  {{question}}</text></view>
+</view>

@@ -1,0 +1,40 @@
+.container{
+  height:1200rpx;
+  width:750rpx;
+  background-color: rgb(251, 250, 228);
+  display:flex;
+  justify-content: center;
+}
+.nickname{
+  display: flex;
+  justify-content: center;
+}
+.cardNumber{
+  justify-content: center;
+}
+.card{
+  height:400rpx;
+  width:100%;
+  background-color: white;
+  border: 5px solid black;
+  position: relative;
+  display:flex;
+  justify-content: center;
+  vertical-align: center;
+  
+}
+.left{
+  display:flex;
+  justify-content: center;
+}
+.cardstyle{
+  font-size: 100rpx;
+  
+  
+  color: black;
+}
+.countDown{
+  display:flex;
+  justify-content: center;
+  vertical-align: center;
+}

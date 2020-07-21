@@ -1,0 +1,27 @@
+/**index.wxss**/
+.container{
+  height:1200rpx;
+  width:100%;
+  background-color: rgb(251, 250, 228);
+  display:flex;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.container image{
+   margin-top: -200rpx;
+}
+
+.cardNumber{
+  margin-top: 30rpx;
+  margin-left: 70rpx;
+}
+
+.cardinput{
+  width:300rpx;
+  height:50rpx;
+  background-color: white;
+  border:1px solid rgb(14, 122, 55);
+  margin-top: 40rpx;
+  margin-left: 80rpx;
+}
