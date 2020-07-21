@@ -1,0 +1,25 @@
+.character image{
+  width: 180rpx;
+  height: 230rpx;
+  margin-left: 50rpx;
+  margin-right: 40rpx;
+
+}
+.character{
+  display: flex;
+  font-size: 30rpx;
+  margin-top: 30rpx;
+  text-align: center;
+
+}
+.divided
+{display: flex;
+  align-items:center;
+  color: rgb(107, 119, 131);
+  margin-top: 30rpx;
+  margin-left: 15rpx;
+}
+.paper{
+margin-left: 30rpx;
+margin-right: 30rpx;
+}

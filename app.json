@@ -1,0 +1,39 @@
+{
+  "pages": [
+
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/resources/item1/item1",
+    "pages/resources/item2/item2",
+    "pages/resources/item3/item3",
+    "pages/resources/item4/item4",
+    "pages/room/room1/room1",
+    "pages/choose/choose1/choose1",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00BFFF",
+    "navigationBarTitleText": "剧本杀",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#1C1C20",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/help/help",
+        "text": "我的"
+      }
+    ]
+  }
+}

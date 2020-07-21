@@ -1,0 +1,63 @@
+<!--pages/choose/choose1/choose1.wxml-->
+<view class="top">角色选择</view>
+<view class="choose">点击头像选择角色</view>
+<view class="divided" space="emsp"  align-items:center> 
+      <text align-items:center>———————————————————————</text>
+</view>
+<navigator url="/pages/room/room1/room1">
+  <view class="character">
+    <image src="/image/yyc.png"></image>
+    <view class="detail">
+      <view class="name">
+        杨宇辰
+      </view>
+      <view class="about">
+        35岁， 带带大师兄亲传弟子
+      </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="/pages/room/room1/room1">
+  <view class="character">
+    <image src="/image/yyc.png"></image>
+    <view class="detail">
+      <view class="name">
+        杨宇辰
+      </view>
+      <view class="about">
+        35岁， 带带大师兄亲传弟子
+      </view>
+    </view>
+  </view>
+</navigator>
+
+<navigator url="/pages/room/room1/room1">
+  <view class="character">
+    <image src="/image/yyc.png"></image>
+    <view class="detail">
+      <view class="name">
+        杨宇辰
+      </view>
+      <view class="about">
+        35岁， 带带大师兄亲传弟子
+      </view>
+    </view>
+  </view>
+</navigator>
+
+
+<navigator url="/pages/room/room1/room1">
+  <view class="character">
+    <image src="/image/yyc.png"></image>
+    <view class="detail">
+      <view class="name">
+        杨宇辰
+      </view>
+      <view class="about">
+        35岁， 带带大师兄亲传弟子
+      </view>
+    </view>
+  </view>
+</navigator>
+

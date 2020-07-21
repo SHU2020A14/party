@@ -1,0 +1,75 @@
+.juben{
+  width:90%;
+  height:300rpx;
+  justify-content: center;
+  border: 2px solid black; 
+  border-radius: 10px
+ ; margin: 30rpx}
+
+ .juben image{
+  width: 100%;
+  height: 700rpx;}
+
+.divided{
+  display: flex;align-items:center;
+  color: rgb(107, 119, 131);
+  margin: 10rpx}
+
+.hot{
+  color: rgb(0, 0, 0);
+  margin: 30rpx}
+
+.introduce{
+  color: rgb(0, 0, 0);
+  margin: 30rpx;
+  border: 2rpx solid black;
+  width: 400rpx;
+  height: 280rpx;
+  border-radius: 20rpx;
+  text-align: center;
+  border-style: solid;
+  box-shadow:0px 4px 4px 4px #DDDDDD;
+  border-width: 0rpx;
+  overflow: hidden;
+  margin-bottom: 10rpx;
+
+}
+
+.pic image{
+  width:200rpx;
+  height:220rpx;
+  }
+
+.poc{display: flex;}
+
+.name{
+  margin-left:0rpx;
+  margin-top: 6rpx;
+  font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+  font-weight: 540;
+  font-size: 28rpx;
+}
+
+
+
+.label{
+  display: flex;
+  text-align: center}
+
+.detail{
+  margin-top: 20rpx;
+  font-size: 25rpx;}
+
+  .position{
+    display: flex;
+  }
+  .title{
+    width: 100%;
+    margin-bottom: 20rpx;
+
+  }
+  .title image{
+    width: 100%;
+    height: 300rpx;
+    margin-top: 30rpx;
+  }

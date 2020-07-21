@@ -1,0 +1,84 @@
+<view class="title">
+  <image src="/image/3801213fb80e7bec32863cb8202eb9389b506b0e[1].jpg" mode="aspectFill"></image>
+</view>
+
+ <view class="position">
+    <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+      
+       <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+      
+            <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+
+</view>
+
+ <view class="position">
+    <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+      
+       <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+      
+            <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+
+</view>
+
+ <view class="position">
+    <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+      
+       <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+      
+            <view class="introduce" decode>
+      <navigator class="pic" url="/pages/resources/item1/item1">
+      <image src="/image/timgJUWTDPRE.jpg" padding:50rpx></image>
+      </navigator>
+      <navigator class="name" url="/pages/resources/item1/item1">梦魇餐厅
+      </navigator>
+    </view>
+
+</view>

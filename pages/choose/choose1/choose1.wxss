@@ -1,0 +1,32 @@
+/* pages/choose/choose1/choose1.wxss */
+.top{ 
+  color: rgb(0, 0, 0);
+  font-size: 50rpx;margin-left: 30rpx;
+
+}
+.divided{display: flex;align-items:center;color: rgb(107, 119, 131);margin-top: 2rpx;margin-left: 15rpx;}
+.character image{
+  width: 200rpx;
+  height: 200rpx;
+border-radius: 20rpx;
+}
+.character{
+  border: 2rpx solid  rgb(107, 119, 131);
+  border-radius: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-top: 10rpx;
+  display: flex;
+  background-color:snow;
+}
+.name{font-size: 30rpx;margin-left: 10rpx;display: flex;}
+.choose{color: rgb(0, 0, 0);margin-top: 30rpx;font-size: 30rpx;margin-left: 30rpx;}
+.about{font-size: 25rpx;margin-top: 10rpx;margin-left: 10rpx;}
+
+.room{  width: 80%;
+  border: 2rpx solid black;
+  margin-top: 60rpx;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  font-size: 30rpx;
+  opacity: 0.5;}

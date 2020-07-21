@@ -1,0 +1,57 @@
+<!--pages/item1/item1.wxml-->
+<view class="intro">
+    <image class="pic" src="/image/早樱.jpg"></image>
+    <view class="name"> 早樱
+      <view class="time">时间时长： 2小时  文字量6000</view>
+      <view class="time">作者：什么东西</view>
+    </view>
+</view>
+<view class="divided" space="emsp"  align-items:center> 
+      <text align-items:center>———————————————————————</text>
+</view>
+
+<view class="character">
+  <view class="title">角色介绍</view>
+  <scroll-view scroll-x class="introduction">
+   <view class="introduce">
+      <view class="people">
+        <image src="/image/yyc.png"></image>
+        <view class="detail">yyc
+        <view class="detailing">女</view>
+        <view class="detailing">大唐公主，性感人妖，喜欢吃屎</view>
+        </view>
+      </view>
+
+        <view class="people">
+        <image src="/image/yyc.png"></image>
+        <view class="detail">yyc
+        <view class="detailing">女</view>
+        <view class="detailing">大唐公主，性感人妖，喜欢吃屎</view>
+        </view>
+      </view>
+
+
+        <view class="people">
+        <image src="/image/yyc.png"></image>
+        <view class="detail">yyc
+        <view class="detailing">女</view>
+        <view class="detailing">大唐公主，性感人妖，喜欢吃屎</view>
+        </view>
+      </view>
+     
+        <view class="people">
+        <image src="/image/yyc.png"></image>
+        <view class="detail">yyc
+        <view class="detailing">女</view>
+        <view class="detailing">大唐公主，性感人妖，喜欢吃屎</view>
+        </view>
+      </view>
+
+  </view>
+  </scroll-view>
+</view>
+
+<view class="divided" space="emsp"  align-items:center> 
+      <text align-items:center>———————————————————————</text>
+</view>
+    <text class="detail" decode="{{true}}" space="nbsp">{{message1}}</text>
